@@ -1,0 +1,23 @@
+code-review (skill by Mike Reams) — third-party material
+
+- rules/default.md, rules/ts-js.md, rules/github-workflows.md, rules/package-json.md
+  From alibaba/open-code-review, internal/config/rules/rule_docs/ (default.md, ts_js_tsx_jsx.md,
+  github_workflows.md, package_json.md) @ a758d9c (2026-09-29).
+  Copyright 2026 alibaba/open-code-review Contributors. Licensed under the Apache License, Version 2.0
+  (see LICENSE-APACHE-2.0-open-code-review). Modified 2026-10-01: an attribution line was added to each
+  file, and the "Inner Components" rule in ts-js.md was reworded.
+
+- reviewer-prompt.md, plus the fresh-context reviewer and "declined to judge" ideas in SKILL.md
+  Adapted from obra/superpowers, skills/requesting-code-review/code-reviewer.md @ 8ca22db (2026-09-25).
+  Copyright (c) 2025 Jesse Vincent. MIT License (see LICENSE-MIT-superpowers).
+
+- The coverage ledger, severity/category model and finding re-check step in SKILL.md are re-implemented
+  from open-code-review's delegation-mode skill (skills/open-code-review-delegate/SKILL.md) and design
+  notes (README "Deterministic Engineering"). No code was copied.
+
+- The change-scoped audit rule, `check` mode and Step 4b (documented vs implemented) in SKILL.md, added
+  2026-10-17, re-implement ideas from phuryn/pm-skills, pm-ai-shipping (skills intended-vs-implemented and
+  shipping-artifacts, commands ship-check/document-app). Copyright (c) Pawel Huryn, MIT License. Written in
+  our own words; no text was copied.
+
+- rules/estate.md and the rest of SKILL.md: original (Mike Reams).
