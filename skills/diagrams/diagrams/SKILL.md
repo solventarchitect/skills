@@ -1,6 +1,6 @@
 ---
 name: diagrams
-description: Create software and UX diagrams — flowcharts, user journeys, sequence diagrams, ERDs, C4 architecture, state machines — as Mermaid (version-controllable, renders on GitHub/Obsidian) or clean blueprint-style SVG (checked-in artifact for docs/READMEs/slides). Triggers: diagram, visualize, map out, show the flow, user journey, architecture, state machine.
+description: "Create software and UX diagrams — flowcharts, user journeys, sequence diagrams, ERDs, C4 architecture, state machines — as Mermaid (version-controllable, renders on GitHub/Obsidian) or clean blueprint-style SVG (checked-in artifact for docs/READMEs/slides). Triggers: diagram, visualize, map out, show the flow, user journey, architecture, state machine."
 ---
 
 # Diagrams

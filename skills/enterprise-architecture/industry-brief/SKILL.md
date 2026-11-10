@@ -1,6 +1,6 @@
 ---
 name: industry-brief
-description: Produce a one-page brief on how the Blueprint Catalog covers an industry: its L1 capabilities, value streams, the products that reach into it, technology categories and governing standards, with the review status stated. Use to orient on a sector before a mapping or assessment.
+description: Produce a one-page brief on how the Blueprint Catalog covers an industry (its L1 capabilities, value streams, the products that reach into it, technology categories and governing standards), with the review status stated. Use to orient on a sector before a mapping or assessment.
 ---
 
 # Industry brief
