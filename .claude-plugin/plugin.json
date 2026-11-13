@@ -1,0 +1,21 @@
+{
+  "name": "blueprint-catalog",
+  "version": "0.1.0",
+  "description": "Nine enterprise architecture skills that work from the Blueprint Catalog (capability mapping, product coverage, value streams, decision records, lifecycle checks), with the catalog's read-only MCP server. No key, nothing to sign up for.",
+  "author": { "name": "Mike Reams", "url": "https://mikereams.com" },
+  "homepage": "https://mikereams.com/ai",
+  "repository": "https://github.com/solventarchitect/skills",
+  "license": "CC-BY-4.0",
+  "keywords": ["enterprise-architecture", "capability-map", "adr", "cmdb"],
+  "skills": [
+    "./skills/enterprise-architecture/catalog-lookup/",
+    "./skills/enterprise-architecture/capability-mapping/",
+    "./skills/enterprise-architecture/product-coverage/",
+    "./skills/enterprise-architecture/value-stream-worksheet/",
+    "./skills/enterprise-architecture/export-to-tool/",
+    "./skills/enterprise-architecture/adr-with-patterns/",
+    "./skills/enterprise-architecture/lifecycle-check/",
+    "./skills/enterprise-architecture/industry-brief/",
+    "./skills/enterprise-architecture/calm-tagging/"
+  ]
+}
