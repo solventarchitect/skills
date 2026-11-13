@@ -30,8 +30,11 @@ Read a skill before you install it.
 | [catalog-lookup](skills/enterprise-architecture/catalog-lookup/SKILL.md) | The catalog's record for a term: id, definition, scope, link | CC BY 4.0 |
 | [code-review](skills/review-qa/code-review/SKILL.md) | A coverage ledger of every changed file and a short list of re-checked findings | MIT, with bundled Apache-2.0 and MIT parts (see its NOTICE) |
 | [diagrams](skills/diagrams/diagrams/SKILL.md) | A Mermaid block or a clean blueprint SVG, chosen by where the diagram will live | MIT |
+| [skill-intake](skills/security/skill-intake/SKILL.md) | A verdict on a skill before it is installed, with one row in a review record | MIT |
+| [technology-request-intake](skills/enterprise-architecture/technology-request-intake/SKILL.md) | A review summary for a technology request: six answers, an overlap verdict and the records to create | MIT |
+| [servicenow-write-check](skills/enterprise-architecture/servicenow-write-check/SKILL.md) | A sent-versus-stored comparison for every ServiceNow Table API write, and whether each field exists | MIT |
 
-The enterprise-architecture skills use the [Blueprint Catalog](https://catalog.mikereams.com), a free capability
+The nine CC BY 4.0 skills use the [Blueprint Catalog](https://catalog.mikereams.com), a free capability
 catalog, through its read-only MCP server or HTTPS API. They need no key and nothing to install.
 
 ## Where these come from
@@ -48,5 +51,5 @@ node scripts/sync.mjs --check   # exit 1 if anything here differs from the sourc
 
 ## Licence
 
-MIT (see [LICENSE](LICENSE)), except where a folder has its own `LICENSE.md` or `NOTICE`: the enterprise-architecture
+MIT (see [LICENSE](LICENSE)), except where a folder has its own `LICENSE.md` or `NOTICE`: the nine Blueprint Catalog
 skills are CC BY 4.0 (keep the credit and source link), and `code-review` bundles third-party parts listed in its NOTICE.
