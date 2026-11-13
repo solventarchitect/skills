@@ -1,0 +1,51 @@
+{
+  "_note": "Defaults for ui-critique checks. Copy to <app>/.ui-critique.json to override; add \"allow\": [{\"check\": \"<id>\", \"reason\": \"...\"}] (or \"word\" for one copy word) for deliberate exceptions. Failures can't be allowed away.",
+  "widths": [
+    1440,
+    768,
+    390
+  ],
+  "maxFontSizes": 7,
+  "maxLeftEdges": 4,
+  "maxCentredShare": 0.6,
+  "maxH1Lines": 2,
+  "maxSmallCapsCaptions": 6,
+  "maxMarginDifferencePx": 24,
+  "maxEmDashes": 6,
+  "bannedWords": [
+    "unlock",
+    "unleash",
+    "supercharge",
+    "seamless",
+    "seamlessly",
+    "elevate",
+    "effortless",
+    "effortlessly",
+    "cutting-edge",
+    "game-changer",
+    "game-changing",
+    "revolutionize",
+    "revolutionary",
+    "next-level",
+    "all-in-one",
+    "best-in-class",
+    "world-class",
+    "leverage",
+    "synergy",
+    "empower",
+    "robust",
+    "delve"
+  ],
+  "vagueLabels": [
+    "get started",
+    "learn more",
+    "click here",
+    "read more",
+    "submit"
+  ],
+  "fakeProofPatterns": [
+    "\\b\\d{1,3}(,\\d{3})+\\+? (users|teams|customers|companies)\\b",
+    "\\btrusted by\\b",
+    "\u2605\u2605\u2605\u2605\u2605"
+  ]
+}

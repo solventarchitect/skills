@@ -33,7 +33,7 @@ FAIL    empty + not_empty != total              (the condition was rejected or t
 UNKNOWN total == 0                              (an empty table proves nothing; test on a table with rows)
 ```
 
-A real field partitions the table. A phantom field returns every row for "is empty" and every row for "is not empty", because the platform ignores a condition it does not recognise. An instance can also be set to return no rows for an invalid query; then both counts are 0, which fails the sum.
+A real field partitions the table. A phantom field returns every row for "is empty" and every row for "is not empty", because the platform ignores a condition it does not recognise. An instance can also be set to return no rows for an invalid query (the `glide.invalid_query.returns_no_rows` property); then both counts are 0, which fails the sum.
 
 Stop on FAIL. Do not write to a field that failed, and do not report on it.
 

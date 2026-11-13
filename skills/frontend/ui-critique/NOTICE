@@ -1,0 +1,20 @@
+ui-critique: third-party ideas
+
+The method (subject inventory and argument before design, judging screenshots at three widths with a fixed
+set of passes, measured browser checks, a dated registry of "tells", app-screen rules, fix-three/three-rounds
+loop) is adapted from Leonxlnx/taste-skill, skills/taste-skill (SKILL.md, references/critique.md,
+references/tells.md, references/copy.md, references/app-screens.md) at the 2026-10-25 commit.
+Copyright (c) 2026 Leonxlnx. MIT License.
+
+Everything here is written in our own words; no text, code, scripts or library data were copied.
+scripts/probe.js and scripts/critique.mjs are original (Mike Reams, 2026-10-31) and use
+Playwright from the target app's own dependencies. The brand exception in references/tells.md is ours
+and deliberately departs from taste-skill's house style.
+
+v1.1 (2026-10-31) adds ideas from pbakaus/impeccable (skill/ and .claude/skills/impeccable at b7a8917,
+v4.8.0): surface modes (Persuade, Operate, Read, Experience), named moves (bolder, quieter, distill, typeset, layout,
+colorize, clarify, adapt, onboard, harden, polish), Nielsen-heuristic scoring with n/a renormalisation, P0-P3
+severities, a saved score trend, exceptions that carry a reason, the "refinement preserves, redesign replaces" and
+"the brief wins" guardrails, and a per-app DESIGN.md. Copyright pbakaus and contributors, Apache License 2.0.
+No text, code or binaries were copied; references/moves.md, references/harden.md and scripts/record.mjs are
+written here.

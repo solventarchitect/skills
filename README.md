@@ -33,6 +33,7 @@ Read a skill before you install it.
 | [skill-intake](skills/security/skill-intake/SKILL.md) | A verdict on a skill before it is installed, with one row in a review record | MIT |
 | [technology-request-intake](skills/enterprise-architecture/technology-request-intake/SKILL.md) | A review summary for a technology request: six answers, an overlap verdict and the records to create | MIT |
 | [servicenow-write-check](skills/enterprise-architecture/servicenow-write-check/SKILL.md) | A sent-versus-stored comparison for every ServiceNow Table API write, and whether each field exists | MIT |
+| [ui-critique](skills/frontend/ui-critique/SKILL.md) | Screenshots at three widths, a measured report and a scored critique of a page or app screen | MIT, with ideas credited in its NOTICE |
 
 The nine CC BY 4.0 skills use the [Blueprint Catalog](https://catalog.mikereams.com), a free capability
 catalog, through its read-only MCP server or HTTPS API. They need no key and nothing to install.
