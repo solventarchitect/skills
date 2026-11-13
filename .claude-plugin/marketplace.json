@@ -1,0 +1,12 @@
+{
+  "name": "solventarchitect",
+  "description": "Mike Reams's agent skills for enterprise architecture, published at mikereams.com/ai.",
+  "owner": { "name": "Mike Reams", "url": "https://mikereams.com" },
+  "plugins": [
+    {
+      "name": "blueprint-catalog",
+      "source": "./",
+      "description": "Nine enterprise architecture skills and the Blueprint Catalog's read-only MCP server."
+    }
+  ]
+}

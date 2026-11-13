@@ -15,6 +15,24 @@ npx skills add solventarchitect/skills --skill capability-mapping
 Or copy a folder into your agent's skills directory, for example `.claude/skills/capability-mapping/`.
 Read a skill before you install it.
 
+## Install as a Claude Code plugin
+
+The nine Blueprint Catalog skills also come as one plugin, `blueprint-catalog`, which sets up the catalog's read-only
+MCP server with them, so there is nothing to configure:
+
+```
+/plugin install blueprint-catalog --marketplace solventarchitect/skills
+```
+
+That one line needs Claude Code 2.1.275 or later. On an older version, add the marketplace first:
+
+```
+claude plugin marketplace add solventarchitect/skills
+claude plugin install blueprint-catalog@solventarchitect
+```
+
+The plugin holds the skills marked CC BY 4.0 below. The MIT skills install with the skills CLI, as above.
+
 ## Skills
 
 | Skill | What you get | Licence |

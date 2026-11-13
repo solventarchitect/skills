@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "blueprint-catalog": {
+      "type": "http",
+      "url": "https://catalog.mikereams.com/mcp"
+    }
+  }
+}
