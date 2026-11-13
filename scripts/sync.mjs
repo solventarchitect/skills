@@ -59,7 +59,8 @@ async function fetchText(url) {
 
 async function main() {
   const index = JSON.parse(await fetchText(indexUrl));
-  const originals = index.skills.filter((s) => s.origin === "original");
+  // skills only: the index may also list a plugin, which is this repo's own manifest and has no files to mirror
+const originals = index.skills.filter((s) => s.origin === "original" && s.kind === "skill");
   if (originals.length === 0) throw new Error(`${indexUrl}: no original skills`);
   const drift = [];
   let written = 0;
