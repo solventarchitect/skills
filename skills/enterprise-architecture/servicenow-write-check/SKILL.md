@@ -19,7 +19,7 @@ Instances are configured differently. Treat every rule here as a test to run on 
 
 A field can accept every write, return success and not exist. It lives in a spreadsheet, an export template or an integration mapping, and the platform discards what is written to it.
 
-1. **Read the dictionary, not the template.** Confirm the field is defined for the class of the records you will write: on that table or inherited from a parent. A field defined only on a sibling or a child class does not count.
+1. **Read the dictionary, not the template.** Confirm the field is defined for the class of the records you will write: on that table or inherited from a parent. A field defined only on a sibling or a child class does not count. A child table usually holds dictionary entries only for the fields it adds, so look on its parent tables too; where a table uses the partition extension model, children do not take their parent's fields. The partition test settles it either way.
 2. **Run the partition test** with the Aggregate API:
 
 ```
